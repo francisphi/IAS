@@ -1,0 +1,672 @@
+body{
+    margin: 0;
+    background-color: #b6b1b1;
+}
+
+.container{
+    background-color: #b6b1b1;
+    max-width: 1536px;
+    
+}
+.header{
+    position:relative;
+    background-color: #181717;
+    border: 1px solid #181717;
+    border-bottom-left-radius:200px;
+    border-bottom-right-radius:200px;
+    height: 350px;
+    width: 99.9%;
+    
+}
+
+.me{
+    visibility: hidden
+}
+    
+
+h1{
+    position: absolute;
+    font-size:6vw;
+    color:#f7700f;
+    font-family: "Irish Grover" , cursive;
+    left:500px;
+
+}
+h2{
+    position: absolute;
+    font-size: 3.5vw;
+    color:#f7700f;
+    font-family: "Irish Grover" , cursive;
+    top: 190px;
+    left:920px; 
+}
+h3{
+    position: absolute;
+    font-size: 2.3vw;
+    color:#f7700f;
+    font-family: "Irish Grover" , cursive;
+    top: 140px;
+    left: 580px;
+}
+details{
+    position: relative;
+    }
+.major1 , .major2 , .major3 , .span{
+    position: absolute;
+    left: 150px;
+    font-size: 3vw;
+    left: 750px;
+}
+
+.major3{
+    position: absolute;
+    font-family: "Inika" , cursive;
+    color: #181717;
+    top:700px;
+   
+}
+.span{
+    position: absolute;
+    font-family: "Inika" , cursive;
+    color: #181717;
+    top:750px;
+    left: 1100px;
+
+}
+.major2{
+    position: absolute;
+    font-family: "Inika" , cursive;
+    color: #181717;
+    top:550px;
+    
+}
+.major1{
+    position: absolute; 
+    font-family: "Inika" , cursive;
+    color: #181717;
+    top:400px;
+    
+}
+img{
+    position: relative;
+}
+.info{
+position: relative;
+font-size: 2vw;
+color:#2a2624;
+}
+.info1 , .info2{
+    position: absolute;
+    top:1050px;
+    font-family: "Inter" , cursive;
+    font-size: 2vw;
+}
+.info1{
+    position:absolute;
+    left:750px;
+}
+.info2{
+    position:absolute;
+    left:1050px;
+}
+a{
+    text-decoration-color:none;
+    color: #2a2624;
+}
+.me1{
+    position: absolute;
+    height:290%;
+    width:55%;
+    top:131px;
+    left:-100px;
+}
+
+
+
+@media (max-width:1536px) {
+    .container{
+        max-width: 1280px;
+    } 
+    .header{
+        width:119.9%;
+        position:relative;
+    }
+    .me{
+        visibility: hidden;
+    }
+    h1{
+        position: absolute;
+        font-size:6vw;
+        color:#f7700f;
+        font-family: "Irish Grover" , cursive;
+        left:500px;
+    
+    }
+    h2{
+        position: absolute;
+        font-size: 3.5vw;
+        color:#f7700f;
+        font-family: "Irish Grover" , cursive;
+        top: 190px;
+        left:920px; 
+    }
+    h3{
+        position: absolute;
+        font-size: 2.3vw;
+        color:#f7700f;
+        font-family: "Irish Grover" , cursive;
+        top: 140px;
+        left: 580px;
+    }
+    .details{
+        position: relative;
+        width:113%;
+        }
+    .major1 , .major2 , .major3 , .span{
+        position: absolute;
+        left: 150px;
+        font-size: 3vw;
+        left: 750px;
+        
+    }
+    
+    .major3{
+        position: absolute;
+        font-family: "Inika" , cursive;
+        color: #181717;
+        top:410px;
+       
+    }
+    .span{
+        position: absolute;
+        font-family: "Inika" , cursive;
+        color: #181717;
+        top:450px;
+        left: 1100px;
+    
+    }
+    .major2{
+        position: absolute;
+        font-family: "Inika" , cursive;
+        color: #181717;
+        top:230px;
+        
+    }
+    .major1{
+        position: absolute; 
+        font-family: "Inika" , cursive;
+        color: #181717;
+        top:50px;
+        
+    }
+    img{
+        position: relative;
+    }
+    .info{
+    position: relative;
+    font-size: 2vw;
+    color:#2a2624;
+    width: 115%;
+    }
+    .info1 , .info2{
+        position: absolute;
+        top:700px;
+        font-family: "Inter" , cursive;
+        font-size: 2vw;
+    }
+    .info1{
+        position:absolute;
+        left:750px;
+    }
+    .info2{
+        position:absolute;
+        left:1050px;
+    }
+    a{
+        text-decoration-color:none;
+        color: #2a2624;
+    }
+    .me1{
+        position: absolute;
+        height:290%;
+        width:55%;
+        top:126px;
+        left:-100px;
+    }
+   
+}
+
+
+
+@media (max-width:1280px) {
+    .cotainer {
+        max-width:1024px;
+        position: relative;
+    }
+    .header{
+        position: absolute;
+        width:114.7%;
+        height:270px;
+    }
+    img{
+        position: relative;
+    }
+    .me1{
+        visibility: visible;
+        position: absolute;
+        height:408%;
+        top:100px;
+        width:45%;
+        left:-45px;
+        top: 60px;
+        
+    }
+    
+h1{
+    position: absolute;
+    font-size:7vw;
+    left: 460px;
+    top:1px;
+}
+
+h3{position: absolute;
+    font-size:2.7vw;
+    left: 530px;
+    top:115px;
+}
+h2{
+    position: absolute;
+    font-size:3vw;
+    left:799px;
+    top: 150px;
+
+}
+.info1 , .info2{
+
+    position: absolute;
+    top:1050px;
+    font-size: 2.4vw;
+    
+}
+.info1{
+    position: absolute;
+    left: 620px;
+   
+}
+.info2{
+    left: 960px;   
+    position: absolute;
+}
+
+
+.major1 , .major2 , .major3 , .span{
+    position: absolute;
+    left:620px;
+    font-size:3.9vw; 
+}
+
+.major1{
+    top:280px;
+}
+.major2{
+    top: 490px;
+}
+.major3{
+    top: 700px;
+}
+.span{
+    position: absolute;
+    left:960px;
+    top:750px;
+} 
+.me{
+    visibility:hidden;
+}
+a{
+    
+    color:#2a2624;
+}
+
+}
+
+
+
+@media (max-width:1024px) {
+    .container{
+        max-width:768px;
+        }
+    .header{
+        position: absolute;
+        width:149.8%;
+        height:255px;
+    }
+    
+    .me{
+        visibility: hidden;
+    }
+    .me1{
+        visibility: visible;
+        position: absolute;
+        height:285%;
+        top: 790px;
+        width:49%;
+            
+    }
+    img{
+        position: relative;
+    }
+    h1{
+        font-size: 8vw;
+        left: 400px;
+        top:-20px;  
+    }
+    h3{
+        left:240px;
+        font-size:5vw;
+        top:70px;   
+    }
+    h2{ 
+        left: 750px;
+        font-size:5.5vw;
+        top: 130px;  
+    }
+   .details{
+    position: relative;
+    width:200%;
+   }
+    .major1 , .major2 , .major3 , .span{
+        left:220px;
+        position: absolute;
+       font-size:7.7vw;
+    }
+    .major1{
+          top: 250px;
+    }
+    .major2{   
+        top: 450px;
+    }
+    .major3{
+        top:650px;
+    }
+    .span{
+        top:750px;
+       left:800px;
+    }
+    .info{
+        width:200%;
+    }
+    .info1 , .info2{
+       font-size:5vw;
+       left: 720px;
+    }
+    .info1{
+        top:1250px;
+    }
+    .info2{
+        top:1350px;
+    }
+    
+}
+
+@media(max-width:768px){
+    .container{
+     max-width: 640px;
+    }
+
+
+   .header{
+    position: relative;
+        width:199.8%;
+        height: 260px;
+    }
+    .info{
+        position: relative;
+    }
+    .info2{
+        position: absolute;
+        left:650px;
+        top: 1140px;
+    }
+    .info1{
+        position: absolute;
+        top:1090px;
+        left:650px;
+    }
+    h1{
+        position: absolute;
+        font-size:9vw;
+        top:1px;
+        left: 330px;
+        position: absolute;    
+    }
+    
+    h2{
+        top: 140px;
+        left: 600px;
+        font-size:5.5vw;
+        position: absolute;
+    }
+    h3{
+        position: absolute;
+        top: 90px;
+        left: 230px;
+        font-size:5vw;
+    }
+    .details{
+        position: relative;
+    }
+    .major1 , .major2 , .major3 , .span{
+        position: absolute;
+        font-size:8.5vw;
+        left:150px;
+    }
+    .major1{
+        position: absolute;
+        top: 5px;
+    }
+    .major2{
+        position: absolute;
+        top: 205px;
+    }
+    .major3{
+        position: absolute;
+        top: 405px;
+    }
+    .span{
+        position: absolute;
+        left: 650px;
+        top:465px;
+    }
+    .info2 , .info1{
+        position: absolute;
+        font-size:5.5vw;
+        
+        
+    }
+    img{
+        position: relative;
+    }
+ .me1{
+    visibility: hidden;
+ }
+ .me{
+    position: absolute;
+    object-position: 0 120px;
+    visibility: visible;
+    background-position: left bottom;
+    height:800px;
+    width:80%;
+    top: 725px;
+ }
+}
+
+@media (max-width: 640px) {
+   .container{
+    max-width: 475px;
+   }
+    .header {
+        position:relative;
+        height:250px;
+         width:295.9%;
+        
+    }
+        h1, h2, h3 {
+            position: absolute;
+        font-size: 11vw;
+            
+    }
+    h1{
+        position: absolute;
+        top: 1px;
+        left: 420px;
+    }
+    h3{
+        position: absolute;
+        top: 90px;
+        left: 340px;
+        font-size:6vw;
+    }
+    h2{
+        position: absolute;
+        top: 140px;
+        left: 720px;
+        font-size: 7vw; 
+    }
+    .details{
+        position:absolute;
+        width:220%;
+    }
+    .major1, .major2, .major3, .span {
+        font-size: 11.5vw;
+        position: absolute;
+        left: 150px;  
+    }
+    .major1{
+        top: 10px;
+    }
+    .major2{
+        top:210px;
+    }
+    .major3{
+        top:410px;
+    }
+    .span{
+        top:490px;
+        left: 700px;
+    }
+        .info{
+            width:280%;
+            position: relative;
+        }
+    .info1 ,  .info2
+    {
+        position:absolute;
+        left:650px;
+        font-size:7vw;
+    }
+    .info1{
+        position:absolute;
+        top:1050px;
+    }
+    .info2{
+        position:absolute;
+        top: 1100px;
+    }
+    img{
+        position: relative;
+    }
+    .me1{
+        visibility: visible;
+        position: absolute;
+        height:250%;
+        width: 650px;
+        top: 894px;   
+    }
+    .me{
+        visibility: hidden;
+    } 
+    }
+
+
+    @media (max-width:475px) {
+    .container{
+    max-width:100%;    
+    }
+    .header{
+        height:250px;
+        position:relative;
+        width:250%;
+    }
+   h1{
+    position: absolute;
+    font-size:15vw;
+    left: 260px;
+   }
+   h3{
+    position: absolute;
+    top:85px;
+    font-size:8vw;
+    left: 180px;
+   }
+   h2{
+    position: absolute;
+    top:135px;
+    font-size: 9vw;
+    left: 550px;
+   }
+   .details{
+    position: relative;
+    width:250%;
+   }
+   .major1, .major2, .major3, .span {
+    position: absolute;
+    font-size:13vw;
+    left: 150px;
+}
+.major1{
+    position: absolute;
+    top: 1px;
+}
+.major2{
+    position: absolute;
+    top:220px;
+}
+.major3{
+    position: absolute;
+    top:420px;
+}
+.span{
+    position: absolute;
+    top:490px;
+    left: 590px;
+}
+.info{
+    position:relative;
+    width: 250%;
+}
+.info1 , .info2{
+    position: absolute;
+    left:640px;
+    font-size:7.7vw;
+}
+.info1{
+    position: absolute;
+    top:1070px;
+}
+.info2{
+    position: absolute;
+    top: 1130px;
+}
+img{
+    position: relative;
+    width: 200%;
+}
+.me1{
+    position: absolute;
+    height:700px;
+    width:53%;
+    top:810px;
+    left: 1px;
+}
+}
+
